@@ -55,7 +55,7 @@ body {
     border-radius: 30px;
 }
 
-#map-text {
+.page-style {
     max-width: 700px;
     text-align: center;
     padding-top: 75px;
@@ -63,7 +63,7 @@ body {
     font-weight: 300;
 }
 
-#map-text h1 {
+.page-style h1 {
     font-size: 50px;
     font-weight: bold;
     letter-spacing: -0.02em;
@@ -71,13 +71,13 @@ body {
     margin-bottom: 1.25rem;
 }
 
-#map-text p {
+.page-style p {
     color: #57586e;
     font-size: 17px;
     margin-bottom: 2rem;
 }
 
-#map-text button {
+.page-style button {
     background-color: #175cff;
     color: white;
     font-weight: bold;
@@ -86,7 +86,28 @@ body {
     border: none;
 }
 
-.map-icon-text::before {
+.update-sec {
+    padding-top: 100px;
+    text-align: justify;
+    max-width: 900px;
+}
+
+.update-sec h2,
+h3,
+h4 {
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    color: #0a083b;
+}
+
+.update-sec p {
+    color: #57586e;
+    font-size: 17px;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+.map__icon--text::before {
     content: "";
     position: absolute;
     bottom: -12px;
@@ -99,7 +120,7 @@ body {
     border-top: 12px solid #ffffff;
 }
 
-.map-icon-text {
+.map__icon--text {
     position: absolute;
     top: -47px;
     left: -51px;
@@ -122,7 +143,7 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
-.map-icon-text-active {
+.map__icon--text-active {
     transform: scale(1);
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -141,58 +162,58 @@ body {
     background-position: center center;
 }
 
-.map-icon {
+.map__icon {
     position: absolute;
     text-align: center;
     display: block;
 }
 
-.moreno {
+.map__icon--moreno {
     top: 290px;
     left: 53px;
 }
 
-.dallas {
+.map__icon--dallas {
     top: 320px;
     left: 280px;
 }
 
-.cicero {
+.map__icon--cicero {
     top: 191px;
     left: 370px;
 }
 
-.chattanooga {
+.map__icon--chattanooga {
     top: 269px;
     left: 415px;
 }
 
-.petersburg {
+.map__icon--petersburg {
     left: 473px;
     bottom: 54px;
 }
 
-.ottawa {
+.map__icon--ottawa {
     left: 470px;
     top: 120px;
 }
 
-.bethlehem {
+.map__icon--bethlehem {
     left: 495px;
     top: 180px;
 }
 
-.carrollton {
+.map__icon--carrollton {
     top: 345px;
     left: 267px;
 }
 
-.woodridge {
+.map__icon--woodridge {
     top: 205px;
     left: 357px;
 }
 
-.kilkenny {
+.map__icon--kilkenny {
     top: 110px;
     right: 150px;
 }
@@ -232,4 +253,8 @@ body {
     100% {
         transform: scale(1);
     }
+}
+
+a {
+    color: grey !important;
 }

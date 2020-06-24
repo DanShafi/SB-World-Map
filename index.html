@@ -65,7 +65,7 @@
             </button>
         </nav>
         <div class="container">
-            <div class="m-auto" id="map-text">
+            <div class="m-auto page-style">
                 <h1>We ship all over the world</h1>
                 <p>
                     We use our network of fulfillment centers to help you
@@ -79,45 +79,108 @@
                 id="map-bg"
                 style="background-image: url(/assets/world-map.png);"
             >
-                <div class="map-icon moreno">
-                    <span class="map-icon-text">Moreno Valley, CA</span>
+                <div class="map__icon map__icon--moreno">
+                    <span class="map__icon--text">Moreno Valley, CA</span>
                     <img class="anim-1" src="/assets/sb-map-img.svg" alt="" />
                 </div>
-                <div class="map-icon dallas">
-                    <span class="map-icon-text">Dallas, TX</span>
+                <div class="map__icon map__icon--dallas">
+                    <span class="map__icon--text">Dallas, TX</span>
                     <img class="anim-3" src="/assets/sb-map-img.svg" alt="" />
                 </div>
-                <div class="map-icon cicero">
-                    <span class="map-icon-text">Cicero, IL</span>
+                <div class="map__icon map__icon--cicero">
+                    <span class="map__icon--text">Cicero, IL</span>
                     <img class="anim-2" src="/assets/sb-map-img.svg" alt="" />
                 </div>
-                <div class="map-icon chattanooga">
-                    <span class="map-icon-text">Chattanooga, TN</span>
+                <div class="map__icon map__icon--chattanooga">
+                    <span class="map__icon--text">Chattanooga, TN</span>
                     <img class="anim-1" src="/assets/sb-map-img.svg" alt="" />
                 </div>
-                <div class="map-icon petersburg">
-                    <span class="map-icon-text">St. Petersburg, FL</span>
+                <div class="map__icon map__icon--petersburg">
+                    <span class="map__icon--text">St. Petersburg, FL</span>
                     <img class="anim-2" src="/assets/sb-map-img.svg" alt="" />
                 </div>
-                <div class="map-icon ottawa">
-                    <span class="map-icon-text">Ottawa, CA</span>
+                <div class="map__icon map__icon--ottawa">
+                    <span class="map__icon--text">Ottawa, CA</span>
                     <img class="anim-3" src="/assets/sb-map-img.svg" alt="" />
                 </div>
-                <div class="map-icon bethlehem">
-                    <span class="map-icon-text">Bethlehem, PA</span>
+                <div class="map__icon map__icon--bethlehem">
+                    <span class="map__icon--text">Bethlehem, PA</span>
                     <img class="anim-1" src="/assets/sb-map-img.svg" alt="" />
                 </div>
-                <div class="map-icon carrollton">
-                    <span class="map-icon-text">Carrollton, TX</span>
+                <div class="map__icon map__icon--carrollton">
+                    <span class="map__icon--text">Carrollton, TX</span>
                     <img class="anim-2" src="/assets/sb-map-img.svg" alt="" />
                 </div>
-                <div class="map-icon woodridge">
-                    <span class="map-icon-text">Woodridge, IL</span>
+                <div class="map__icon map__icon--woodridge">
+                    <span class="map__icon--text">Woodridge, IL</span>
                     <img class="anim-3" src="/assets/sb-map-img.svg" alt="" />
                 </div>
-                <div class="map-icon kilkenny">
-                    <span class="map-icon-text">Kilkenny, IE</span>
+                <div class="map__icon map__icon--kilkenny">
+                    <span class="map__icon--text">Kilkenny, IE</span>
                     <img class="anim-1" src="/assets/sb-map-img.svg" alt="" />
+                </div>
+            </div>
+            <div>
+                <div class="m-auto update-sec">
+                    <h2>World Map Feature Update</h2>
+                    <p>
+                        ShipBob's landing page aesthetically describes the
+                        service offering in a concise, component-based way. Each
+                        section is a progressive narrative that helps the user
+                        understand what service ShipBob provides. An important
+                        feature of the site is the world map section. It offers
+                        the first notice to the user that ShipBob is a regional
+                        and global brand - not just operating in one or two
+                        states.
+                        <br /><br />The current world map on the live site is a
+                        static, onclick-based interaction. The user has to
+                        manually click on each button to identify the
+                        fulfillment centre location. Further to this, there is
+                        no exit-based action as the user has to click again to
+                        hide the location pin*.
+                    </p>
+                    <h3>Interactivity promotes usability</h3>
+                    <p>
+                        The updated world map now has two changes, an aesthetic
+                        change and an interactive change. Firstly, animation has
+                        been applied to all icons. This 'pulsing' animation
+                        offers varied animation-delays in order to maximise user
+                        attention. Unlike static images, the user is more likely
+                        to scan the entire map due to the visual aid of the
+                        animations. This then leads to interactivity.
+                        <br /><br />The original feature triggers an event based
+                        on a click. The updated feature now triggers the event
+                        as soon as the user hovers over each icon. This will
+                        then display the corresponding location pin. Once the
+                        user has left the icon, the pin retracts back on exit in
+                        an animated fashion This method then prevents multiple
+                        location pins polluting the map and could possibly
+                        increase dwell time on the actual feature. <br /><br />
+                        The purpose behind the update is to tell a new user
+                        story that ShipBob is 'constantly moving'. The use of
+                        animations aids the rhetoric that the fulfillment
+                        centres are 'active' and 'online'.
+                    </p>
+                    <h4>Footnotes</h4>
+                    <a
+                        href="https://github.com/DanShafi/SB-World-Map"
+                        target="_blank"
+                        >1. Source Code - GitHub</a
+                    >
+                    <p>2. This feature has only been tested for desktop.</p>
+                    <p>
+                        <em
+                            >* Note: Speaking from a tag management perspective,
+                            it is difficult to say without insight to the setup
+                            if this was an intentional action to record event
+                            triggers for retargeting purposes</em
+                        >.
+                    </p>
+                    <p>
+                        <a href="www.builtbydan.com" target="_blank"
+                            >♥ BuiltByDan.com
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>
