@@ -1,0 +1,235 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(254, 254, 254);
+}
+
+#top-banner {
+    padding-top: 12px;
+    padding-bottom: 1px;
+    margin: 0 auto;
+    background-color: #2d5af6ff;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+}
+
+#shipbob-logo {
+    height: 42px;
+}
+
+.sb-nav {
+    background: white;
+    box-shadow: 60px 40px 60px 0 rgba(19, 23, 32, 0.1);
+}
+
+.nav-link {
+    color: #57586e !important;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding: 0 1.3rem 0 1.3rem !important;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#nav-right {
+    margin: 0 0 0 -20px;
+}
+
+#get-started {
+    display: inline-block;
+    min-width: 120px;
+    padding: 9.5px 20px !important;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    border: solid 1px #e5e5e5;
+    background-color: #fff;
+    color: #175cff !important;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 30px;
+}
+
+#map-text {
+    max-width: 700px;
+    text-align: center;
+    padding-top: 75px;
+    line-height: 1.6em;
+    font-weight: 300;
+}
+
+#map-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    color: #0a083b;
+    margin-bottom: 1.25rem;
+}
+
+#map-text p {
+    color: #57586e;
+    font-size: 17px;
+    margin-bottom: 2rem;
+}
+
+#map-text button {
+    background-color: #175cff;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 16.5px 30px;
+    border: none;
+}
+
+.map-icon-text::before {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    margin-left: -12px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #ffffff;
+}
+
+.map-icon-text {
+    position: absolute;
+    top: -47px;
+    left: -51px;
+    display: block;
+    min-width: 140px;
+    padding: 6px 10px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.map-icon-text-active {
+    transform: scale(1);
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#map-bg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.map-icon {
+    position: absolute;
+    text-align: center;
+    display: block;
+}
+
+.moreno {
+    top: 290px;
+    left: 53px;
+}
+
+.dallas {
+    top: 320px;
+    left: 280px;
+}
+
+.cicero {
+    top: 191px;
+    left: 370px;
+}
+
+.chattanooga {
+    top: 269px;
+    left: 415px;
+}
+
+.petersburg {
+    left: 473px;
+    bottom: 54px;
+}
+
+.ottawa {
+    left: 470px;
+    top: 120px;
+}
+
+.bethlehem {
+    left: 495px;
+    top: 180px;
+}
+
+.carrollton {
+    top: 345px;
+    left: 267px;
+}
+
+.woodridge {
+    top: 205px;
+    left: 357px;
+}
+
+.kilkenny {
+    top: 110px;
+    right: 150px;
+}
+
+.anim-1 {
+    animation-name: stretch;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.anim-2 {
+    animation-name: stretch;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.anim-3 {
+    animation-name: stretch;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes stretch {
+    0% {
+        transform: scale(0.75);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>map-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="12.96" cy="12.96" r="12.96"></circle>
+        <filter x="-21.2%" y="-13.5%" width="142.4%" height="142.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0392156863   0 0 0 0 0.031372549   0 0 0 0 0.231372549  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="map-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7">
+            <circle id="Oval" stroke="#175CFF" stroke-width="0.8" opacity="0.600000024" cx="18" cy="18" r="15.2"></circle>
+            <circle id="Oval" stroke="#175CFF" stroke-width="0.8" opacity="0.800000012" cx="18" cy="18" r="17.6"></circle>
+            <g id="Group-10" transform="translate(4.800000, 4.800000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#175CFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M8.33282028,12.3299092 L8.33282028,15.6337241 L12.9600114,18.2768114 L17.5920507,15.6337241 L17.5920507,11.2915345 L13.6425873,13.538203 C13.2086366,13.783563 12.7112948,13.783563 12.2773441,13.538203 L6.90418587,10.4750552 C6.33860471,10.1493844 6.33860471,9.33281649 6.90418587,9.0119271 L12.2773441,5.94408638 C12.7112948,5.69863787 13.2086366,5.69863787 13.6425873,5.94408638 L17.5920507,8.20014069 L15.7733729,9.23373392 L12.9600114,7.63371424 L11.6435236,8.38891999 L9.26411282,9.752877 L10.5172094,10.4655808 L12.9600114,11.8721283 L17.9528225,9.03078732 C18.2356588,8.87503554 18.6208541,8.89389576 18.9035989,9.03548024 C19.2107672,9.19123201 19.44,9.49804265 19.44,9.8756898 L19.44,15.9216745 C19.44,16.3936227 19.1961314,16.8042089 18.7768165,17.0449645 L13.6425873,19.9759136 C13.2135762,20.2213621 12.7112948,20.2213621 12.2773441,19.9759136 L7.14311487,17.0449645 C6.72379997,16.8042089 6.48487097,16.3983157 6.48487097,15.9216745 L6.48487097,14.9635221 L6.48487097,11.2821487 L8.33282028,12.3299092 Z" id="Fill-12" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
